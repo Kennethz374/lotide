@@ -10,5 +10,7 @@ for (let letters of modifiedToLC) {
   }
 } return results;
 };
-let data = "this is a Stupid Testing Code for This";
-console.log(countLetters(data));
+
+module.exports = countLetters;
+// let data = "this is a Stupid Testing Code for This";
+// console.log(countLetters(data));

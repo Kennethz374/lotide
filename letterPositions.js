@@ -1,4 +1,4 @@
-const countPosition = function(sen) {
+const letterPosition = function(sen) {
   let words = sen.replace(/ /g, "");
   let modifiedToLC = words.toLowerCase();
   let results = {};
@@ -21,5 +21,7 @@ for (let letter of modifiedToLC) {
   i++;
 } return results;
 };
-let data = "this is a Stupid Testing Code for This";
-console.log(countPosition(data));
+
+module.exports = letterPosition;
+// let data = "this is a Stupid Testing Code for This";
+// console.log(letterPosition(data));

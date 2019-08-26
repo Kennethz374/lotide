@@ -1,8 +1,8 @@
-let bestTVShowsByGenre = { 
-  sci_fi: "The Expanse",
-  comedy: "Brooklyn Nine-Nine",
-  drama:  "The Wire"
-};
+// let bestTVShowsByGenre = { 
+//   sci_fi: "The Expanse",
+//   comedy: "Brooklyn Nine-Nine",
+//   drama:  "The Wire"
+// };
 
 const findKeyByValue = function (obj, value) {
   for (let keyName in obj) {
@@ -13,5 +13,5 @@ const findKeyByValue = function (obj, value) {
     }
   }
 };
-
-console.log(findKeyByValue(bestTVShowsByGenre, "The Wire"));
+module.exports = findKeyByValue;
+// console.log(findKeyByValue(bestTVShowsByGenre, "The Wire"));

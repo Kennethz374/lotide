@@ -8,4 +8,4 @@ const without = function(source, itemsToRemove) {
     
   }return arr
 };
-console.log(without([1,2,3,4,5,6], [2,3]));
+module.exports = without;
