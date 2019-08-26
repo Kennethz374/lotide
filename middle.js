@@ -13,5 +13,5 @@ const middle = function (arr) {
     return answer;
   } 
 };
+module.exports = middle;
 
-console.log(middle([1,2]));
